@@ -3,7 +3,6 @@ import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 import { FaNodeJs,FaReact, } from "react-icons/fa";
 import { SiTailwindcss,SiExpress, SiMongodb } from "react-icons/si";
-import { BsBootstrap } from "react-icons/bs";
 import { FaJs, FaHtml5 } from "react-icons/fa";
 import P1 from '../../assets/images/plant1.png'
 import P2 from '../../assets/images/advice1.png'
@@ -21,7 +20,9 @@ const Works = () => {
       id: 5,
       title: "Beta House",
       image: P5,
-      description: 'A modern and intuitive UI design for an admin dashboard tailored for a car dealership. This project highlights my ability to create clean, organized, and visually appealing interfaces for managing data. The design includes features like inventory management, sales tracking, and user analytics, with a focus on usability and responsiveness.',
+      description: 'Beta House is a sleek and responsive real estate web application that allows users to explore, list, and manage property listings with ease. Whether you're a buyer, seller, or agent, the platform offers intuitive search, filter, and listing features that make property discovery effortless. With a clean UI and dynamic interactions, Beta House brings simplicity and style to the online real estate experience.
+
+',
       github: 'https://github.com/RAHMAN012/BetaHouse-project',
       live: 'https://betahouse-project.onrender.com/',
       stack: [<FaReact key="react"/>, <SiTailwindcss key="tailwind"/>, <FaNodeJs key="node"/>, <SiExpress key="express"/>, <SiMongodb key="mongodb"/>]
