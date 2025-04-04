@@ -20,9 +20,7 @@ const Works = () => {
       id: 5,
       title: "Beta House",
       image: P5,
-      description: 'Beta House is a sleek and responsive real estate web application that allows users to explore, list, and manage property listings with ease. Whether you're a buyer, seller, or agent, the platform offers intuitive search, filter, and listing features that make property discovery effortless. With a clean UI and dynamic interactions, Beta House brings simplicity and style to the online real estate experience.
-
-',
+      description: 'Beta House is a sleek and responsive real estate web application that allows users to explore,list, and manage property listings with ease. Whether you are a buyer, seller, or agent, the platform offers intuitive search, filter, and listing features that make property discovery effortless. With a clean UI and dynamic interactions, Beta House brings simplicity and style to the online real estate experience.',
       github: 'https://github.com/RAHMAN012/BetaHouse-project',
       live: 'https://betahouse-project.onrender.com/',
       stack: [<FaReact key="react"/>, <SiTailwindcss key="tailwind"/>, <FaNodeJs key="node"/>, <SiExpress key="express"/>, <SiMongodb key="mongodb"/>]
